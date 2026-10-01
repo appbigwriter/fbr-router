@@ -1,10 +1,12 @@
 {
-  "name": "omniroute",
+  "name": "fbr-router",
   "version": "3.8.51",
-  "description": "Unified AI router with 358 providers, RTK+Caveman compression, auto fallback, MCP/A2A, desktop, PWA, and OpenAI-compatible APIs.",
+  "description": "FBR-Router - Unified AI router with 358 providers, auto fallback, MCP/A2A, desktop, PWA, and OpenAI-compatible APIs.",
   "type": "module",
   "bin": {
+    "fbr-router": "bin/omniroute.mjs",
     "omniroute": "bin/omniroute.mjs",
+    "fbr-router-reset-password": "bin/reset-password.mjs",
     "omniroute-reset-password": "bin/reset-password.mjs"
   },
   "files": [
